@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <fieldset>
+        <legend allign="Centre">Reg-Form</legend>
+        <form action="www.youtube.com" method="POST">
+
+            <label for="Name">Name :</label>
+            <input type="text" name="name" id="Name">
+            <br>
+            <label for="phone">Phone :</label>
+            <input type="tel" name="phone" id="phone">
+            <!-- <br>  -->
+            Email : <input type="email">
+            <br>
+            Age : <input type="number"><br>
+            
+            <label for="address">Address :</label>
+            <textarea name="" id="" cols="30" rows="10"></textarea><br>
+
+            <label for="">Course :</label>
+            <select name="" id="">
+                <option value="BTECH">B.Tech</option>
+                <option value="MTECH">M.Tech</option>
+                <option value="PHD">PHD</option>
+            </select><br>
+            
+            <label for="Browser">Browser :</label>
+                <input list="browser">
+                <datalist id="browser">
+                    <option value="Java">Java</option>
+                    <option value="python">Python</option>
+                    <option value="apex">Apex</option>
+                </datalist><br>
+            
+            <label for="gen">Gender :</label>
+            <input type="radio" name="male" id="gen">Male
+            <input type="radio" name="female" id="gen">Female
+            <br>
+
+            <label for="hobbies">Hobbies :</label>
+                <input type="checkbox" name="" id="">Playing
+                <input type="checkbox" name="" id="">Sleeping
+                <input type="checkbox" name="" id="">Scrolling
+                <input type="checkbox" name="" id="">Overthinking
+                <input type="checkbox" name="" id="">Coding
+                <input type="checkbox" name="" id="">Eating
+                <br>
+
+            <label for="file">File :</label>
+                <input type="file"><br>
+
+            <label for="DOB">DOB :</label>
+            <input type="date"><br>
+
+            date-time-local: <input type="datetime-local" name="" id="">
+            <br>
+            range: <input type="range" name="" id="">
+            <br>
+            week: <input type="week" name="" id="">
+            <br>
+            month: <input type="month" name="" id="">
+            <br>
+            color: <input type="color" name="" id="">
+            <br>
+            Image: <input type="image" src="../Day 4/Images/IMG_20240327_152954.jpg" 
+            height="150px" width="150px" name="Sweety" id="">
+            <br>
+            hidden: <input type="hidden" name="" id="">
+            <br>
+            url: <input type="url" name="" id="">
+            <br>
+            search: <input type="search" name="" id="">
+            <br>
+
+            <button>Submit-Button</button>
+                <br><br>
+            <input type="submit">
+            <input type="reset">
+
+        </form>
+    </fieldset>
+</body>
+</html>
